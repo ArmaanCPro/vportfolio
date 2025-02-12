@@ -31,9 +31,17 @@ export default function Contact() {
             process.env.NEXT_PUBLIC_EMAILJS_USER_ID!
         ).then((response) => {
             console.log("SUCCESS!", response.status, response.text)
+            resetForm()
         }).catch((err) => {
             console.log("FAILED...", err)
         })
+    }
+
+    const resetForm = () => {
+        setFormData(prevState => ({
+            ...prevState,
+            message: ""
+        }))
     }
 
     return (
