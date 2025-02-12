@@ -1,9 +1,9 @@
 ﻿import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const projects = [
-    { title: "PasswordGen", description: "A simple password generator using all things C++, from crytography to GUI" },
+    { title: "PasswordGen", description: "A simple password generator using all things C++, from cryptography to GUI" },
     { title: "BadVoxel", description: "A WIP voxel engine in C++, using opengl, glfw, and glad" },
-    { title: "Project 3", description: "A brief description of Project 3" },
+    { title: "Epic Duelist", description: "A short video game made in Unreal Engine" },
 ]
 
 export default function Projects() {
