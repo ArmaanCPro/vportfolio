@@ -2,7 +2,7 @@
 
 const projects = [
     { title: "PasswordGen", description: "A simple password generator using all things C++, from cryptography to GUI" },
-    { title: "BadVoxel", description: "A WIP voxel engine in C++, using opengl, glfw, and glad" },
+    { title: "BadVoxel", description: "A WIP voxel engine in C++, using opengl, glfw, glad, stb_image, and some other libraries" },
     { title: "Epic Duelist", description: "A short video game made in Unreal Engine" },
 ]
 
