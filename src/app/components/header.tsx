@@ -10,6 +10,9 @@ export default function Header() {
                 </Link>
                 <div className="flex gap-4">
                     <Button variant="ghost" asChild>
+                        <Link href="https://amn-sh.vercel.app/blog" target="_blank" rel="noopener noreferrer">Blog</Link>
+                    </Button>
+                    <Button variant="ghost" asChild>
                         <Link href="https://github.com/ArmaanCPro" target="_blank" rel="noopener noreferrer">Github</Link>
                     </Button>
                     <Button variant="ghost" asChild>

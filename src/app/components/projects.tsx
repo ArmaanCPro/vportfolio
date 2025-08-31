@@ -1,9 +1,9 @@
 ﻿import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const projects = [
-    { title: "PasswordGen", description: "A simple password generator using all things C++, from cryptography to GUI" },
-    { title: "BadVoxel", description: "A WIP voxel engine in C++, using opengl, glfw, glad, stb_image, and some other libraries" },
-    { title: "Epic Duelist", description: "A short video game made in Unreal Engine" },
+    { title: "PasswordGen", description: "A simple password generator using all things C++, from cryptography to GUI to database" },
+    { title: "Moon Engine", description: "A game engine in C++ with a focus on Rendering, using Vulkan, glfw, stb_image, and some other libraries" },
+    { title: "Epic Duelist", description: "A short video game made with tools including Unreal Engine 5, Adobe Photoshop, Adobe Substance Painter, and Blender" },
 ]
 
 export default function Projects() {

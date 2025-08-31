@@ -1,6 +1,6 @@
 ﻿import { Badge } from "@/components/ui/badge"
 
-const skills = ["C++", "Unreal Engine", "wxWidgets", "OpenGL", "Vulkan", "DirectX12", "CMake", "Premake",
+const skills = ["C++", "Vulkan", "Unreal Engine", "wxWidgets", "OpenGL", "DirectX12", "CMake", "Premake",
     "vcpkg", "SQLite", "C#", "Java", "JavaScript", "TypeScript", "React", "Next.js", "Svelte", "Sveltekit",
     "Tailwind CSS", "Git", "Github"]
 

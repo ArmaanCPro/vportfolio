@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Armaan Chahal - Portfolio",
-  description: "C++ developer portfolio showcasing some projects and skills",
+  description: "C++ developer portfolio showcasing projects and skills",
 }
 
 const RootLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
